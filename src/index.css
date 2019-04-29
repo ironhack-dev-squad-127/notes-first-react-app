@@ -12,3 +12,45 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.Navbar {
+  background-color: red;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.Navbar > * {
+  margin: 15px 5px;
+}
+
+.Navbar h2 {
+  flex-grow: 1;
+}
+
+.Navbar a {
+  color: white;
+}
+
+.Footer {
+  background-color: black;
+  color: white;
+  padding: 15px 5px;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.App > main {
+  flex-grow: 1;
+}
+
+.RandomImgCard {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  border-radius: 20px;
+}
